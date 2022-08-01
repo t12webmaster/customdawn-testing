@@ -103,15 +103,23 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "text_alignment": "center",
-              "color_scheme": "background-1",
-              "link": ""
+              "text": "<p>Welcome to our store<\/p>",
+              "bg_color": "#000000",
+              "text_color": "#ffffff"
+            }
+          },
+          "b1c85e48-1891-4733-8557-f445a22a3755": {
+            "type": "announcement",
+            "settings": {
+              "text": "<p>Free shipping with purchase of $50 and above<\/p>",
+              "bg_color": "#1ecc06",
+              "text_color": "#000"
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "b1c85e48-1891-4733-8557-f445a22a3755"
         ],
         "settings": {
         }
@@ -298,7 +306,7 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "text": "Welcome to our store",
+                "text": "<p>Welcome to our store<\/p>",
                 "color_scheme": "background-1",
                 "link": ""
               }
